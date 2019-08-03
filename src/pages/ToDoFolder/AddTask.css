@@ -1,0 +1,16 @@
+input {
+  margin: 10px;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.form button {
+  padding: 3px 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 40%;
+}
+.form button:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
