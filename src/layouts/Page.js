@@ -8,15 +8,13 @@ import ErrorPage from "../pages/ErrorPage.js";
 
 const Page = () => {
   return (
-    <>
-      <Switch>
-        <Route path="/" exact component={HomePage} />
-        <Route path="/list" component={ToDoPage} />
-        <Route path="/tank" component={TankPage} />
-        <Route path="/admin" component={ContactPage} />
-        <Route component={ErrorPage} />
-      </Switch>
-    </>
+    <Switch>
+      <Route path="/" exact component={HomePage} />
+      <Route path="/list" component={ToDoPage} />
+      <Route path="/tank" component={TankPage} />
+      <Route path="/admin" component={ContactPage} />
+      <Route component={ErrorPage} />
+    </Switch>
   );
 };
 
