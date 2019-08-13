@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import AddTask from "./AddTask.js";
 import TaskList from "./TaskList.js";
 
@@ -8,7 +9,7 @@ class ToDoPage extends Component {
     tasks: [
       {
         id: 0,
-        text: "zagrać w tanki!",
+        text: "Przeczytać wiedźmina",
         date: "2020-02-15",
         important: true,
         active: true,
@@ -32,7 +33,7 @@ class ToDoPage extends Component {
       },
       {
         id: 3,
-        text: "Sprzedać Lowe bo to crap",
+        text: "Wyprowadzić psa",
         date: "2020-02-15",
         important: true,
         active: true,
@@ -48,7 +49,7 @@ class ToDoPage extends Component {
       },
       {
         id: 5,
-        text: "wypić piwo duszkiem",
+        text: "pójść na siłownię",
         date: "2020-04-15",
         important: false,
         active: true,

@@ -73,8 +73,7 @@ class AddTask extends Component {
           onChange={this.handleDate}
         />
         <button style={{ marginLeft: 15 }} onClick={this.handleClick}>
-          {" "}
-          Dodaj{" "}
+          Dodaj
         </button>
         <hr />
       </div>

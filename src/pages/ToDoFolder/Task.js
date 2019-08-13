@@ -11,7 +11,7 @@ const Task = props => {
     return (
       <div>
         <p>
-          <strong style={important ? style : null}>{text}</strong> - zrobić do:
+          <strong style={important ? style : null}>{text}</strong>- zrobić do:
           <span> {date}</span>
           <button style={{ marginLeft: 20 }} onClick={() => props.change(id)}>
             Wykonane!
